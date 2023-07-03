@@ -24,6 +24,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 3: Create the Client Virtual Machine.
 - Step 4: Install Active Directory.
 - Step 5: Create an Admin and Normal User Account in Active Directory.
+- Step 6:
+- Step 7: Set up Remote Desktop for non-administrative users on Client-1.
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -72,16 +74,16 @@ Step 5: Create an Admin and Normal User Account in Active Directory.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 
+Step 6
 </p>
 <br />
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uddYDcJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 
+Step 7: Set up Remote Desktop for non-administrative users on Client-1. 
 </p>
 <br />
 
