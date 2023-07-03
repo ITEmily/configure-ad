@@ -22,7 +22,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 1: Create the Domain Controller Virtual Machine.
 - Step 2: Set the Domain Controller's NIC Private IP address to "static."
 - Step 3: Create the Client Virtual Machine.
-- Step 4
+- Step 4: Install Active Directory.
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -43,7 +43,7 @@ Step 2: Set the Domain Controller's NIC Private IP address to "static."
 <br />
 
 <p>
-<img src="https://imgur.com/a/42gSU82" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sh1nDTF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 3: Create the Client Virtual Machine.
@@ -51,10 +51,10 @@ Step 3: Create the Client Virtual Machine.
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cbMk5r3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 
+Step 4: Install Active Directory.
 </p>
 <br />
 
