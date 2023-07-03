@@ -74,7 +74,7 @@ Step 5: Create an Admin and Normal User Account in Active Directory. In Active D
 <img src="https://i.imgur.com/kK3tIM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 6: Join Client-1 to your domain (mydomain.com). From the Azure Portal, set Client-1's DNS settings to the DC"s Private IP Address. In this case, the private IP address is 10.0.0.4. From the Azure portal restart Client-1. 
+Step 6: Join Client-1 to your domain (mydomain.com). From the Azure Portal, set Client-1's DNS settings to the DC"s Private IP Address. In this case, the private IP address is 10.0.0.4. From the Azure portal restart Client-1. Login to Client-1 (via Remote Desktop) as the original admin and joinit to the domain.  This is done from "settings" -> "about" -> "rename".  (The computer will restart.)
 </p>
 <br />
 
@@ -83,7 +83,7 @@ Step 6: Join Client-1 to your domain (mydomain.com). From the Azure Portal, set 
 <img src="https://i.imgur.com/uddYDcJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 7: Set up Remote Desktop for non-administrative users on Client-1. 
+Step 7: Set up Remote Desktop for non-administrative users on Client-1. Log into Client-1 as mydomain.com\jane_admin and open System properties. Click "Remote Desktop" and allow "domain users" access to remote desktop.  You can now log into Client-1 as a normal, non-administrative user now.
 </p>
 <br />
 
